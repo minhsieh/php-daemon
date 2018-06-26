@@ -1,0 +1,17 @@
+{
+    "name": "minhsieh/php-daemon",
+    "description": "A php library about PHP Daemon Process",
+    "type": "library",
+    "authors": [
+        {
+            "name": "minhsieh",
+            "email": "side112358@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "Daemon\\" : "src/Daemon"
+        }
+    }
+}
